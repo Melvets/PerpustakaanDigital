@@ -1,0 +1,79 @@
+=====================================================
+USER --------> ULASAN BUKU (Has Many)
+1		n
+Satu user 		dapat memiliki 	banyak ulasan buku
+
+USER <-------- ULASAN BUKU (Belongs To)
+1		1
+Satu Ulasan buku 	dimiliki oleh	Satu user
+
+=====================================================
+USER --------> PEMINJAMAN (Has One)
+1		1
+Satu user 		dapat memiliki 	satu peminjaman
+
+USER <-------- PEMINJAMAN (Belongs To)
+1		1
+Satu Peminjaman	dimiliki oleh	satu user
+
+=====================================================
+USER --------> KOLEKSI PRIBADI (Has Many)
+1		n
+Satu user 		dapat memiliki 	banyak koleksi pribadi
+
+USER <-------- KOLEKSI PRIBADI (Belongs To Many)
+n		1
+Satu Koleksi Pribadi	dimiliki oleh	banyak user
+
+=====================================================
+
+
+=====================================================
+BUKU --------> ULASAN BUKU (Has Many)
+1		n
+Satu buku		dapat memiliki 	banyak ulasan buku
+
+BUKU <-------- ULASAN BUKU (Belongs To)
+1		1
+Satu ulasan buku 	dimiliki oleh 	satu buku
+
+=====================================================
+BUKU --------> KOLEKSI PRIBADI (Has One)
+1		1
+Satu buku		dapat memiliki 	satu koleksi pribadi
+
+BUKU <-------- KOLEKSI PRIBADI (Belongs To)
+1		1
+Satu koleksi pribadi 	dimiliki oleh 	satu buku
+
+=====================================================
+BUKU --------> PEMINJAMAN (Has One)
+1		1
+Satu buku		dapat memiliki 	satu peminjaman
+
+BUKU <-------- PEMINJAMAN (Belongs To)
+1		1
+Satu peminjaman	dimiliki oleh 	satu buku
+
+=====================================================
+BUKU --------> KATEGORI BUKU RELASI (Has One) X
+1		1
+Satu buku		dapat memiliki 	satu koleksi pribadi
+
+BUKU <-------- KATEGORI BUKU RELASI (Belongs To) X
+1		1
+Satu koleksi pribadi 	dimiliki oleh 	satu buku
+
+=====================================================
+
+
+=====================================================
+KATEGORI BUKU --------> KATEGORI BUKU RELASI (Has One) X
+1		1
+Satu buku		dapat memiliki 	satu koleksi pribadi
+
+KATEGORI BUKU <-------- KATEGORI BUKU RELASI (Belongs To) X
+1		1
+Satu koleksi pribadi 	dimiliki oleh 	satu buku
+
+=====================================================

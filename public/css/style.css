@@ -1,0 +1,119 @@
+:root{
+    --kuningcerah : #ffcc00;
+    --orangecerah : #ff9900;
+    --birugelap : #003366;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Landing: button login */
+.button_login {
+    padding: 0.5rem 1.5rem 0.5rem 1rem;
+    background-color: #252525;
+}
+
+.button_login:hover {
+    background-color: #3b3b3b;
+    cursor: pointer;
+}
+
+.navbar_ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 15%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 3px solid var(--kuningcerah);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+/* Landing: button login end */
+
+/* Landing: navbar-nav */
+
+.navbar_nav {
+    margin: 0 0.6rem;
+}
+
+.navbar_nav a{
+    color: #252525;
+    font-size: 0.8rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar_nav a:hover {
+    color: #003366;
+}
+
+.navbar_nav .active {
+    color: var(--birugelap);
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/* Landing: navbar-nav end */
+
+
+/* Navbar-nav */
+/* .navbar_ .navbar-nav_ a {
+    color: #252525;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 0 0.6rem;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.navbar_ .navbar-nav_ a:hover {
+    color: var(--primary);
+}
+
+.navbar_ .navbar-nav_ a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0, 5rem;
+    border-bottom: 0.1rem solid var(--primary);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar_ .navbar-nav_ a:hover::after {
+    transform: scaleX(0.5);
+}
+
+.navbar_ .navbar-nav_ .active {
+    color: var(--primary);
+    font-size: 0.8em;
+    font-weight: bold;
+} */
+
+/* Navbar-extra */
+/* .navbar_ .navbar-extra_ .login_ {
+    background-color: var(--primary);
+}
+
+.navbar_ .navbar-extra_ .login_:hover {
+    background-color: var(--darkprimary);
+}
+
+.navbar_ .navbar-extra_ a {
+    color: #252525;
+}
+
+.navbar_ .navbar-extra_ a:hover {
+    color: var(--primary);
+}
+
+#hamburger-menu {
+    display: none;
+} */
+
