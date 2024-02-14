@@ -60,60 +60,39 @@
 
 /* Landing: navbar-nav end */
 
+/* Container: main section */
 
-/* Navbar-nav */
-/* .navbar_ .navbar-nav_ a {
-    color: #252525;
-    display: inline-block;
-    font-size: 0.9rem;
-    margin: 0 0.6rem;
-    font-family: "Poppins", sans-serif;
-    color: #252525;
-    text-decoration: none;
-    font-size: 0.7em;
+.hero_ {
+    min-height: 100vh;
+    align-items: center;
+    background-image: url('/img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
-.navbar_ .navbar-nav_ a:hover {
-    color: var(--primary);
+.text_ {
+    max-width: 500px;
 }
 
-.navbar_ .navbar-nav_ a::after {
-    content: "";
-    display: block;
-    padding-bottom: 0, 5rem;
-    border-bottom: 0.1rem solid var(--primary);
-    transform: scaleX(0);
-    transition: 0.2s linear;
+h1 {
+    text-shadow: 2px 4px 10px black;
 }
 
-.navbar_ .navbar-nav_ a:hover::after {
-    transform: scaleX(0.5);
+.hero_ .btn {
+    box-shadow: 5px 5px 8px;
 }
 
-.navbar_ .navbar-nav_ .active {
-    color: var(--primary);
-    font-size: 0.8em;
-    font-weight: bold;
-} */
-
-/* Navbar-extra */
-/* .navbar_ .navbar-extra_ .login_ {
-    background-color: var(--primary);
+.hero_ a svg {
+    transition: transform 0.3s ease-in-out;
+    padding-left: 5px;
 }
 
-.navbar_ .navbar-extra_ .login_:hover {
-    background-color: var(--darkprimary);
+.hero_ a:hover svg{
+      transform: translateX(10px);
 }
 
-.navbar_ .navbar-extra_ a {
-    color: #252525;
-}
+/* Container: main section end */
 
-.navbar_ .navbar-extra_ a:hover {
-    color: var(--primary);
-}
-
-#hamburger-menu {
-    display: none;
-} */
 
